@@ -4,7 +4,7 @@
 
 go to MongoDB Atlas (https://cloud.mongodb.com) and login or register
 
-Create new cluster and configure user accessibility (saw clusterDetailsDoc.pdf to have more details about that).
+Create new cluster and configure user accessibility (saw cthe .pdf file to have more details about that).
 
 ## Second : Configure API
 

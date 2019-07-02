@@ -29,6 +29,7 @@ to run the project :
 
 - npm start
 
+# Using Docker :
 
 ## Dockerfile :
 
@@ -44,7 +45,7 @@ EXPOSE and VOLUME respectively indicate which port and which file we wish to sha
 
 CMD, allows us to specify which instruction should execute when the container is launched.
 
-# Run the Dockerfile :
+### Run the Dockerfile :
 
 run : 
 - docker build /yourRepositoryPath/
@@ -55,7 +56,7 @@ Docker-compose allows to execute and to put in relation the different images whi
 
 it allows you to quickly and automatically build an existing project.
 
-# Run the Docker-Compose :
+### Run the Docker-Compose :
 
 - docker-compose up -d && docker-compose logs -f
 ( && docker-compose logs -f is not mandatory, but simply to see

@@ -58,6 +58,7 @@ it allows you to quickly and automatically build an existing project.
 
 ### Run the Docker-Compose :
 
+run :
 - docker-compose up -d && docker-compose logs -f
 ( && docker-compose logs -f is not mandatory, but simply to see
 logs)

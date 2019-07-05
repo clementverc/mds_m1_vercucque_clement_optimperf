@@ -9,6 +9,9 @@ RUN mkdir -p /data/db && \
 
 VOLUME /data/db
 
-EXPOSE 27017
+EXPOSE 3000
+
+RUN npm install
 
 CMD [ "mongod", "--bind_ip", "0.0.0.0" ]
+CMD npm run start
